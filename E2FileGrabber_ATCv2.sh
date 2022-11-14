@@ -18,6 +18,7 @@
 set -A monthnames Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
 MOVEDIR="/k8c/ufms/tmp/atc"
 
+#
 #Dictionary mapping, only works in Bash v4+. Bash v4+ is on the AIX LPARs. With line 1, could use bash instead of sh
 #declare -A monthNames=( ["01"]="Jan" ["02"]="Feb" ["03"]="Mar" ["04"]="Apr" ["05"]="May" ["06"]="Jun" ["07"]="Jul" ["08"]="Aug" ["09"]="Sep" ["10"]="Oct" ["11"]="Nov" ["12"]="Dec" )
 #MONTHNAME="${monthNames[$MONTHNUM]}"
